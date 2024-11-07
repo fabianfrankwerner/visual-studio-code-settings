@@ -135,14 +135,16 @@
     "security.workspace.trust.untrustedFiles": "open",
     "editor.linkedEditing": true,
     "editor.formatOnSave": false,
-    // "editor.fontLigatures": false,
-    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
+    "editor.fontLigatures": false,
+    //"editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
     "diffEditor.wordWrap": "on",
     "notebook.output.wordWrap": true,
-    "editor.fontSize": 16,
+    "editor.fontSize": 15,
     "editor.minimap.maxColumn": 250,
-    "codesnap.containerPadding": "8em",
-    "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 12px 24px",
+    "codesnap-plus.containerPadding": "0em",
+    "codesnap-plus.roundedCorners": false,
+    "codesnap-plus.showWindowControls": false,
+    "codesnap-plus.target": "window",
     "explorer.confirmDelete": false,
     "editor.accessibilitySupport": "off",
     "chat.editor.wordWrap": "on",
@@ -153,18 +155,14 @@
     "tailwindCSS.includeLanguages": {
         "plaintext": "html"
     },
-    "tailwindCSS.experimental.configFile": null,
     "editor.fontWeight": "400",
     "workbench.activityBar.location": "hidden",
     "workbench.statusBar.visible": false,
     "editor.inlineSuggest.suppressSuggestions": true,
-    "codesnap.backgroundColor": "#FFC540",
-    "codesnap.showLineNumbers": false,
-    "codesnap.roundedCorners": true,
-    "editor.padding.top": 16,
-    "editor.cursorBlinking": "solid",
+    "editor.padding.top": 15,
+    "editor.cursorBlinking": "phase",
     "editor.stickyScroll.enabled": false,
-    "editor.lineHeight": 32,
+    "editor.lineHeight": 30,
 
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -187,18 +185,19 @@
             }
           ]
     },
-    "material-icon-theme.saturation": 0,
     "vscode_custom_css.imports": [
         "file:///C:/code/fabianfrankwerner/visual-studio-code-theme/vsc.css",
         "file:///C:/code/fabianfrankwerner/visual-studio-code-theme/vsc.js",
     ],
     "workbench.colorTheme": "React Theme",
-    "workbench.iconTheme": "eq-material-theme-icons-light",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.sideBar.location": "right",
-    "material-icon-theme.files.color": "#42a5f5",
+    "material-icon-theme.files.color": "#ffffff",
     "workbench.tree.enableStickyScroll": false,
     "window.menuBarVisibility": "compact",
     "window.commandCenter": false,
     "workbench.layoutControl.enabled": false,
-    "workbench.editor.editorActionsLocation": "hidden"
+    "workbench.editor.editorActionsLocation": "hidden",
+    "material-icon-theme.saturation": 0,
+    "material-icon-theme.folders.theme": "specific"
 }
