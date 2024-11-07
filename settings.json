@@ -62,8 +62,8 @@
     },
 
     /**
-    * Code
-    **/
+     * Code
+     **/
     // Include "-" in word selection.
     "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
     "emmet.includeLanguages": {
@@ -79,13 +79,13 @@
     },
 
     /**
-    * PHP
-    **/
+     * PHP
+     **/
     "php.suggest.basic": false,
 
     /**
-    * Prettier
-    **/
+     * Prettier
+     **/
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true
@@ -106,7 +106,7 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true
     },
-    "prettier.requireConfig": true,
+    // "prettier.requireConfig": true,
     "prettier.useEditorConfig": false,
     "explorer.sortOrder": "type",
     "prettier.tabWidth": 4,
@@ -117,7 +117,6 @@
         "editor.formatOnSave": true
     },
     "editor.wordWrapColumn": 120,
-    "files.autoSave": "afterDelay",
     "[css]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true
@@ -134,7 +133,7 @@
     },
     "security.workspace.trust.untrustedFiles": "open",
     "editor.linkedEditing": true,
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": true,
     "editor.fontLigatures": false,
     //"editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
     "diffEditor.wordWrap": "on",
@@ -167,27 +166,27 @@
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
-              "scope": [
-                "comment",
-                "keyword",
-                "variable.language",
-                "entity.other.attribute-name.html",
-                "entity.other.attribute-name",
-                "keyword.control",
-                "storage.type",
-                "comment",
-                "comment.block",
-                "comment.line"
-              ],
-              "settings": {
-                "fontStyle": ""
-              }
+                "scope": [
+                    "comment",
+                    "keyword",
+                    "variable.language",
+                    "entity.other.attribute-name.html",
+                    "entity.other.attribute-name",
+                    "keyword.control",
+                    "storage.type",
+                    "comment",
+                    "comment.block",
+                    "comment.line"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
             }
-          ]
+        ]
     },
     "vscode_custom_css.imports": [
         "file:///C:/code/fabianfrankwerner/visual-studio-code-theme/vsc.css",
-        "file:///C:/code/fabianfrankwerner/visual-studio-code-theme/vsc.js",
+        "file:///C:/code/fabianfrankwerner/visual-studio-code-theme/vsc.js"
     ],
     "workbench.colorTheme": "React Theme",
     "workbench.iconTheme": "material-icon-theme",
@@ -199,5 +198,7 @@
     "workbench.layoutControl.enabled": false,
     "workbench.editor.editorActionsLocation": "hidden",
     "material-icon-theme.saturation": 0,
-    "material-icon-theme.folders.theme": "specific"
+    "material-icon-theme.folders.theme": "specific",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 0
 }
