@@ -1,6 +1,6 @@
 /* Code comment style */
 .mtk3 {
-    font-family: 'Monaspace Radon', monospace !important;
+    font-family: "Monaspace Radon", monospace !important;
     color: #008c7d !important;
 }
 
@@ -8,24 +8,29 @@
     position: relative !important;
     width: 35px !important;
     font-size: 16px !important;
-    font-family: 'Geist Mono' !important;
-    opacity: .3;
+    font-family: "Geist Mono" !important;
+    opacity: 0.3;
 }
 
 /* Code canvas top shadow */
 .monaco-editor .scroll-decoration {
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, .75) !important;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75) !important;
     top: -6px !important;
 }
 
 /* Toolbars when tabs are enabled. */
-.monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions {
+.monaco-workbench
+    .part.editor
+    > .content
+    .editor-group-container
+    > .title
+    .editor-actions {
     display: none !important;
 }
 
 /* Side bar */
 .part.sidebar {
-    box-shadow: 0px 0px 50px rgba(0, 0, 0, .25);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.25);
 }
 
 /* File Explorer Selected Item */
@@ -49,17 +54,16 @@
 
 /* File Explorer Item Label */
 .monaco-tree .monaco-tree-row .label-name,
-.monaco-list .monaco-list-row
-.monaco-icon-label .label-name {
-    font-family: 'Geist Mono', monospace !important;
+.monaco-list .monaco-list-row .monaco-icon-label .label-name {
+    font-family: "Geist Mono", monospace !important;
     font-size: 14px !important;
     font-weight: 400 !important;
-    color: #FFF !important;
+    color: #fff !important;
 }
 
 /* Sidebar top shadow */
-.monaco-scrollable-element>.shadow.top {
-    box-shadow: 0px 0px 10px rgba(0,0,0,.75) !important;
+.monaco-scrollable-element > .shadow.top {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75) !important;
     top: -3px !important;
 }
 
@@ -81,7 +85,7 @@
     display: inline-block;
     margin-right: 6px;
     font-size: 1.1rem;
-    content: '🚀';
+    content: "🚀";
 }
 
 /* Scroll Bar */
@@ -93,23 +97,30 @@
     left: auto !important;
 }
 
-.codicon-toolbar-more, .codicon-word-wrap {
+.codicon-toolbar-more,
+.codicon-word-wrap {
     display: block !important;
 }
 
 /* Tooltip box style */
 .monaco-editor-hover,
 .monaco-hover {
-    box-shadow: 0px 8px 32px rgba(0,0,0,.45) !important;
+    box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.45) !important;
     padding: 10px !important;
     background-image: linear-gradient(#3c3c50 0%, #2a2b38 100%) !important;
     backdrop-filter: blur(3px) !important;
     border-radius: 20px !important;
-    border: none !important
+    border: none !important;
 }
 
 /* Project title's style at the top. */
-.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center {
+.monaco-workbench
+    .part.titlebar
+    > .titlebar-container
+    > .titlebar-center
+    > .window-title
+    > .command-center
+    .action-item.command-center-center {
     border: none !important;
     background: transparent !important;
 }
@@ -123,7 +134,7 @@
 
 /* Search Label */
 .search-label {
-    font-family: 'Geist Mono' !important;
+    font-family: "Geist Mono" !important;
     font-size: 14px !important;
     color: #fff;
     display: block;
@@ -138,7 +149,8 @@
     display: none !important;
 }
 
-.codicon-arrow-right, .codicon-arrow-left {
+.codicon-arrow-right,
+.codicon-arrow-left {
     display: none !important;
 }
 
@@ -150,7 +162,7 @@
 .quick-input-widget {
     transform: translateY(-50%) !important;
     top: 50% !important;
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, .45) !important;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.45) !important;
     padding: 10px 10px 18px 10px !important;
     background-image: linear-gradient(#3c3c50 0%, #2a2b38 100%) !important;
     backdrop-filter: blur(3px) !important;
@@ -164,7 +176,7 @@
 
 /* List hover */
 .monaco-list-row:hover {
-    background: rgba(0, 0, 0, .2) !important;
+    background: rgba(0, 0, 0, 0.2) !important;
 }
 
 .notifications-toasts .monaco-list-row:hover {
@@ -188,7 +200,7 @@
     border-radius: 12px !important;
     padding: 8px !important;
     border: none !important;
-    background-color: rgba(34, 34, 34, .40) !important;
+    background-color: rgba(34, 34, 34, 0.4) !important;
     font-family: "Geist Mono" !important;
     font-size: 14px !important;
     margin-bottom: 16px !important;
@@ -198,7 +210,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, .15);
+    background: rgba(0, 0, 0, 0.15);
     top: 0;
     left: 0;
     backdrop-filter: blur(8px);
@@ -206,7 +218,7 @@
 
 /* Command palette's input box placeholder. */
 .monaco-inputbox input::placeholder {
-    color: rgba(255, 255, 255, .3) !important;
+    color: rgba(255, 255, 255, 0.3) !important;
 }
 
 /* .monaco-workbench label {
@@ -220,7 +232,7 @@
 }
 
 .command-center-center {
-    width:  auto !important;
+    width: auto !important;
 }
 
 .letterpress {
